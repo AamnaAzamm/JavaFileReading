@@ -23,4 +23,7 @@ public class Teacher {
 				System.out.println(Qualifications.get(i));
 		}
 	}
+	public String getName(){
+		return Name;
+	}
 }

@@ -20,4 +20,10 @@ public class Course {
 	public void print() {
 		System.out.println("Course = " + ID + " " + Title + " " + TotalMarks);
 	}
+	public String getTitle(){
+		return Title;
+	}
+	public int getMarks(){
+		return TotalMarks;
+	}
 }
